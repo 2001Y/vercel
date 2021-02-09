@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -17,6 +18,10 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
+<Image
+  src="/FUJI4605.jpg"
+  width={500}
+/>
         </p>
 
         <div className={styles.grid}>
